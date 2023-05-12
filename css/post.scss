@@ -15,9 +15,7 @@ body{
 @media only screen and (max-width:768px){
 body{
     .aside_left__container{
-        display: flex;
-            justify-content: center;
-            align-items: center;
+       
         .aside_left__container_row{
             
             position: relative;
@@ -28,6 +26,8 @@ body{
                 position: fixed ;
                 bottom: 0;
                 height: 58px;
+                border-radius: 10px 10px 0 0;
+                box-shadow: 0px 0px 5px rgb(73, 72, 72);
                 .aside_left__container_row_aside-left_container{
                     height: 80%;
                     display: flex;
