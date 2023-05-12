@@ -2,3 +2,21 @@
 .contorno{
     border: 1px solid black;
 }
+
+@media only screen and (max-width:768px){
+body{
+    .aside_left__container{
+        .aside_left__container_row{
+            position: relative;
+            height: 100px;
+            .aside_left__container_row_aside-left{
+                p{
+                position: fixed ;
+                bottom: 0;
+                color:yellow;
+            }
+            }
+        }
+    }
+}
+}
