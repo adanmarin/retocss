@@ -1,7 +1,7 @@
 @import "vars";
 
 body{
-    background-color:#f5f5f5 ;
+    background-color:$font-gray ;
 }
 
 
@@ -10,19 +10,32 @@ body{
 }
 
 .main__container_left{
-    background-color: black;
+    // background-color:$font-gray;
+    background-color: aquamarine;
+ 
+    
+
+    .aside__account{
+        background-color: $articles-back-lightgray;
+      
+
+        .aside_account--bold{
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+
+        
+
+
+
+    }
      
 }
 
-.aside__account{
-    background-color: $articles-back-white;
-}
 
-.aside_account--bold{
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-}
+
+
 
 
 

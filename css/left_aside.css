@@ -7,14 +7,12 @@ body {
 }
 
 .main__container_left {
-  background-color: black;
+  background-color: aquamarine;
 }
-
-.aside__account {
+.main__container_left .aside__account {
   background-color: #fafafa;
 }
-
-.aside_account--bold {
+.main__container_left .aside__account .aside_account--bold {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
