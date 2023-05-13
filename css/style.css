@@ -3,6 +3,7 @@
 @import "center.css";
 @import "right_aside.css";
 @import "footer.css";
+@import "articles.css";
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
