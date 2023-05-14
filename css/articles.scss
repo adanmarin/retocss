@@ -51,3 +51,13 @@
   .crayons-btn{
     margin-left: 35px;
   }
+
+  comment-count {
+  white-space: nowrap; /* Evita que el espacio en blanco se envuelva en varias líneas */
+}
+
+@media (max-width: 576px) {
+  .comment-count {
+    display: none; /* Oculta el elemento en pantallas pequeñas */
+  }
+}
