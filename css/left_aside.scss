@@ -1,7 +1,7 @@
 @import "vars";
 
 body{
-    background-color:#f5f5f5 ;
+    background-color:$color-fond;
 }
 
 
@@ -10,18 +10,16 @@ body{
 }
 
 .main__container_left{
-    background-color: #f5f5f5;
-     
+    background-color:$color-fond;    
 }
 
 .main__container__ol{
-    background-color: aqua;
+    background-color:$color-fond;
+}
 
-    .main__container__items{
-        list-style: none;
-        
-    
-    }
+
+.aside__left__tags{
+    width: 85%;
 }
 
 
