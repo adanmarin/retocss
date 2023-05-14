@@ -1,63 +1,96 @@
-.card-title:hover{
-    background-color: white;
-    color: blue;
-    cursor:pointer;
-  }
-  
-  .card-subtitle:hover{
+.card-title:hover {
+  /* Tittle Article Hover */
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card-subtitble {
+  /* User name (Los Costeños) */
+  font-size: 5px;
+  font-style: bold;
+}
+
+.card-subtitle:hover {
+  /* User name (Los Costeños) Hover */
+  display: inline-block;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  color: black;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #e7dede;
+  border-radius: 3px;
+}
+
+.card__subtitle-date {
+  font-size: medium;
+  font-size: smaller;
+}
+
+.card__subtitle-date:hover {
+  /* Date of publish mouse hover*/
+  cursor: pointer;
+}
+
+.hashtags {
+  /* Hashtags styles and positions*/
+  display: flex;
+  justify-content: space-around;
+
+  .highlight-button {
     display: inline-block;
-          padding: 5px;
-          border: none;
-          background-color: transparent;
-          color: inherit;
-          text-decoration: none;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-          background-color: #9B9B9B;
-          color: white;
-          text-decoration: underline;
-          border-radius: 3px;
-  
-  }
-  
-  .hashtags{
-      display: flex;
-      justify-content: space-around ;
-  
-      .highlight-button {
-          display: inline-block;
-          padding: 5px;
-          border: none;
-          background-color: transparent;
-          color: inherit;
-          text-decoration: none;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-        }
-        
-        .highlight-button:hover {
-          background-color: #9B9B9B;
-          color: white;
-          text-decoration: underline;
-          border-radius: 3px;
-        }
-  }
-  
-  .icon__reactions{
-    margin-left: 35px;  
-  
-  }
-  
-  .crayons-btn{
-    margin-left: 35px;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
   }
 
-  comment-count {
-  white-space: nowrap; /* Evita que el espacio en blanco se envuelva en varias líneas */
+  .highlight-button:hover {
+    /* Hashtags hover */
+    background-color: #e7dede;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+}
+
+.icon__reactions {
+  margin-left: 50px;
+}
+.icon__reactions__hv:hover {
+  background-color: #e7dede;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.crayons-btn {
+  margin-left: 50px;
+}
+
+.comment__container {
+  margin-left: 160px;
+  .read__time:hover {
+    cursor: pointer;
+  }
+}
+
+.icon__hover:hover {
+  cursor: pointer;
+}
+
+.comment-count {
+  white-space: nowrap; /* Prevents white space from wrapping around multiple lines */
 }
 
 @media (max-width: 576px) {
   .comment-count {
-    display: none; /* Oculta el elemento en pantallas pequeñas */
+    display: none; /* Hides the element in small screens */
   }
 }
