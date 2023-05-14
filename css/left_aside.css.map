@@ -1,1 +1,1 @@
-{"version":3,"sources":["left_aside.scss","vars.scss","left_aside.css"],"names":[],"mappings":"AAEA;EACI,yBCDS;ACAb","file":"left_aside.css"}
+{"version":3,"sources":["left_aside.scss","vars.scss","left_aside.css"],"names":[],"mappings":"AAEA;EACI,yBCDS;ACAb;;AFKA;EACI,iBAAA;AEFJ;AFII;EACI,yBCVc;EDWd,aAAA;AEFR;AFKI;EACI,yBCfc;EDgBd,aAAA;AEHR","file":"left_aside.css"}
