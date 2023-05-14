@@ -14,15 +14,17 @@ body{
      
 }
 
-.aside__account{
-    background-color: $articles-back-white;
+.main__container__ol{
+    background-color: aqua;
+
+    .main__container__items{
+        list-style: none;
+        
+    
+    }
 }
 
-.aside_account--bold{
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-}
+
 
 
 
