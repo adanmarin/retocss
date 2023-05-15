@@ -7,11 +7,12 @@ body {
 }
 .aside__left__cards .aside__left__card1 {
   background-color: #fafafa;
-  height: 270px;
+  height: 290px;
 }
 .aside__left__cards .aside__left__card2 {
   background-color: #fafafa;
-  height: 310px;
+  height: 320px;
+  padding-bottom: 10px;
 }
 
 #navbarNav {
@@ -19,7 +20,17 @@ body {
 }
 
 .navbar-toggler {
-  padding: 3%;
+  padding: 2%;
   margin-right: 10px;
   border: none;
+}
+
+.aside__left__card1 {
+  border: 2px solid #efefef;
+  border-radius: 9px;
+}
+
+.aside__left__card2 {
+  border: 2px solid #efefef;
+  border-radius: 9px;
 }/*# sourceMappingURL=left_aside.css.map */
