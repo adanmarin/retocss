@@ -16,9 +16,20 @@ body{
     .aside__left__card2 {
         background-color:$articles-back-white;
         height: 310px;
-    }
-    
+    }  
 }
+
+#navbarNav{
+    width: 40%;
+}
+
+.navbar-toggler{
+    padding: 3%;
+    margin-right: 10px;
+    border: none;
+}
+
+
 
 
 

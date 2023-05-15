@@ -12,4 +12,14 @@ body {
 .aside__left__cards .aside__left__card2 {
   background-color: #fafafa;
   height: 310px;
+}
+
+#navbarNav {
+  width: 40%;
+}
+
+.navbar-toggler {
+  padding: 3%;
+  margin-right: 10px;
+  border: none;
 }/*# sourceMappingURL=left_aside.css.map */
