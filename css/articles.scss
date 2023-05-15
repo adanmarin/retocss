@@ -1,3 +1,20 @@
+.nav-link:hover{
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-lik_hv{
+  font-weight: bold;
+  color: black;
+}
+.nav-lik_hv:hover{
+  color: blue;
+  font-weight: bold;
+  background-color: white;
+}
+
 .main__container_lead_centert {
   background-color: #f5f5f5;
 }
