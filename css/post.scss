@@ -1,4 +1,7 @@
 @import "vars";
+*{
+    box-sizing: border-box;
+}
 .contorno{
     border: 1px solid black;
 }
@@ -252,6 +255,56 @@ body{
     font-family: 'Source Sans Pro', sans-serif !important;
     font-weight: 800;
 }
+.mid__container_all_hash
+{
+    display: flex;
+    gap: 12px;
+}
+.box_size
+{
+    padding: 3px;
+    line-height: 25px;
+   
+}
+.mid__container_all_hash_items_purple{
+    width: 12%;
+}
+
+.mid__container_all_hash_items_purple:hover{
+    
+    cursor: pointer;
+    border: 1px solid rgba(86, 39, 101) ;
+    border-radius: 6px;
+    background-color: rgba(86, 39, 101, 0.10) ;
+}
+.mid__container_all_hash_items_drak_green{
+    width: 15%;
+}
+.mid__container_all_hash_items_drak_green:hover{
+    cursor: pointer;
+    border: 1px solid #008335 ;
+    border-radius: 6px;
+    background-color: rgba(0, 131, 53, 0.10) ;
+}
+.mid__container_all_hash_items_blue{
+    width: 8%;
+}
+.mid__container_all_hash_items_blue:hover{
+    
+    border: 1px solid #2965F1 ;
+    border-radius: 6px;
+    background-color: rgba(41, 101, 241, 0.10) ;
+}
+.mid__container_all_hash_items_green{
+    width: 12%;
+}
+.mid__container_all_hash_items_green:hover{
+    border: 1px solid #c1d82f ;
+    border-radius: 6px;
+    background-color: rgba(193, 216, 47, 0.10) ;
+}
+
+
 //TERMINA LO DEL MEDIO
 @media only screen and (max-width:768px){
 body{
