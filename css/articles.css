@@ -98,11 +98,44 @@ body {
 }
 
 .comment-count {
-  white-space: nowrap; /* Prevents white space from wrapping around multiple lines */
+  white-space: nowrap;
+  /* Prevents white space from wrapping around multiple lines */
 }
 
 @media (max-width: 576px) {
   .comment-count {
-    display: none; /* Hides the element in small screens */
+    display: none;
+    /* Hides the element in small screens */
   }
-}/*# sourceMappingURL=articles.css.map */
+}
+/*Stars Profile*/
+.my__photo {
+  position: relative;
+}
+
+.cursor_photo:hover {
+  cursor: pointer;
+}
+
+.profile {
+  position: absolute;
+  top: 110px;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile {
+  overflow: hidden;
+}
+
+@media (max-width: 576px) {
+  .profile {
+    position: static;
+    margin-bottom: 10px;
+  }
+} /*Finish Profile*//*# sourceMappingURL=articles.css.map */
