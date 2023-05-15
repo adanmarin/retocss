@@ -1,15 +1,16 @@
-.nav-link:hover{
+.nav-link:hover {
   background-color: white;
   color: blue;
   cursor: pointer;
   text-decoration: none;
 }
 
-.nav-lik_hv{
+.nav-lik_hv {
   font-weight: bold;
   color: black;
 }
-.nav-lik_hv:hover{
+
+.nav-lik_hv:hover {
   color: blue;
   font-weight: bold;
   background-color: white;
@@ -36,6 +37,17 @@ body {
   font-size: 5px;
   font-style: bold;
 }
+
+/*Starts user name positions for another article containers*/
+.card-subtitle__left {
+  margin-left: 50px;
+}
+
+.card-date__left {
+  margin-left: 50px;
+}
+
+/*Finish user name positions for another article containers*/
 
 .card-img-top:hover {
   cursor: pointer;
@@ -143,6 +155,15 @@ body {
   top: 110px;
 }
 
+.profile__2 {
+  /*Position for photo profile of the other articles. Whitout main image*/
+  position: absolute;
+  top: 15px;
+}
+
+/* Finish Position for photo profile of the other articles. Whitout main image*/
+
+/*Starts Profile for first card*/
 .profile img {
   width: 40px;
   height: 40px;
@@ -159,4 +180,6 @@ body {
     position: static;
     margin-bottom: 10px;
   }
-} /*Finish Profile*/
+}
+
+/*Finish Profile for first card*/
