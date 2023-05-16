@@ -104,10 +104,23 @@ a {
   display: none;
 }
 
+body {
+  background-color: #f1f1f1 !important;
+}
+
+.main__container_lead {
+  padding: 16px;
+  gap: 10px;
+}
+
 .h_img {
   width: 32px;
   border-radius: 100px;
   border: 1px solid #c0c0c0;
+}
+
+.fa-ellipsis {
+  padding: 0px 0px 10px 0px;
 }
 
 body {
@@ -125,6 +138,11 @@ body {
   border: 1px solid #c0c0c0 !important;
   border-radius: 10px;
   margin-bottom: 20px;
+}
+
+.dev__com {
+  color: #454545;
+  font-weight: 100;
 }
 
 .listing-dd {
