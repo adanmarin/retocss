@@ -4,6 +4,7 @@
   color: blue;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 .nav-lik_hv {
@@ -146,7 +147,7 @@ body {
 
 .profile {
   position: absolute;
-  top: 110px;
+  top: 160px;
 }
 
 .profile__2 {

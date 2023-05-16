@@ -3,6 +3,7 @@
   color: blue;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 .nav-lik_hv {
@@ -36,8 +37,8 @@ body {
   /* User name (Los Costeños) */
   font-size: 2.5px;
   font-style: bold;
-    
 }
+
 
 /*Starts user name positions for another article containers*/
 .card-subtitle__left {
@@ -153,7 +154,8 @@ body {
 
 .profile {
   position: absolute;
-  top: 110px;
+  top: 160px;
+  
 }
 
 .profile__2 {
