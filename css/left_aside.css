@@ -4,12 +4,15 @@ body {
 
 .aside__left__cards .aside__left__card1 {
   background-color: #fafafa;
-  height: 290px;
+  height: 300px;
+  padding-bottom: 10px;
+  display: block;
 }
 .aside__left__cards .aside__left__card2 {
   background-color: #fafafa;
   height: 320px;
   padding-bottom: 10px;
+  display: block;
 }
 
 #navbarNav {
@@ -19,7 +22,7 @@ body {
 .navbar-toggler {
   padding: 2%;
   margin-right: 10px;
-  border: none;
+  border: none !important;
 }
 
 .aside__left__card1 {
@@ -49,13 +52,24 @@ body {
 .left_icons--last {
   width: 100%;
   height: 48px;
-  padding: 10px;
-  margin-top: 20px;
+  margin-top: 27px;
+}
+
+.left_icons--last__box {
+  width: 100%;
+  height: 30px;
+  display: block;
+}
+
+.icons--last {
+  width: 33px;
+  height: 33px;
+  padding: 4px;
 }
 
 .icons--last:hover {
   background-color: #e2e3f3;
-  color: blue;
+  color: black;
   border-radius: 7px;
   text-decoration: underline;
 }
@@ -86,6 +100,13 @@ body {
 }
 
 .btn-close:hover {
+  background-color: #e2e3f3;
+  color: blue;
+  border: none;
+  text-decoration: underline;
+}
+
+.navbar-toggler:hover {
   background-color: #e2e3f3;
   color: blue;
   border-radius: 7px;
