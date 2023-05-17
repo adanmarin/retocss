@@ -4,6 +4,7 @@
   color: blue;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 .nav-lik_hv {
@@ -17,6 +18,18 @@
   background-color: white;
 }
 
+/* Navbar Relevant Latest Top media querie */
+@media (max-width: 991px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: flex-start;
+  }
+  .nav-item {
+    margin-right: 15px;
+  }
+}
+/* Navbar Relevant Latest Top media querie */
 .main__container_lead_centert {
   background-color: #f5f5f5;
 }
@@ -146,7 +159,7 @@ body {
 
 .profile {
   position: absolute;
-  top: 110px;
+  top: 160px;
 }
 
 .profile__2 {
