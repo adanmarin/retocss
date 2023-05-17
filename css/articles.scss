@@ -6,6 +6,10 @@
   border-radius: 10px;
 }
 
+.card-body2:hover{
+  cursor: pointer;
+}
+
 .nav-lik_hv {
   font-weight: bold;
   color: black;
@@ -60,9 +64,15 @@
   background-color: #ffffff;
   border-radius: 8px;
  }
-
+.photo__profile:hover{
+  cursor: pointer;
+}
  .day__nameprofile{
   font-size:smaller;
+ }
+
+ .day__nameprofile:hover{
+  cursor: pointer;
  }
 
  .min__read{
@@ -89,6 +99,29 @@
   background-color: white;
   text-decoration: none;
   color: blue;
+  cursor: pointer;
  }
 
- 
+ .cards_hashtag:hover{
+  background-color: rgb(236, 229, 229);
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+ }
+.icon__bg{
+  background-color: rgb(236, 229, 229);
+  border-radius: 10px;
+}
+ .box__images:hover{
+  background-color: rgb(236, 229, 229);
+  text-decoration: none;
+  border-radius: 20px;
+ }
+
+ .zone__comments:hover{
+  cursor: pointer;
+ }
+
+ .zone__reading:hover{
+  cursor: pointer;
+ }
