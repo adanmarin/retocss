@@ -566,6 +566,88 @@ body .aside_left__container .aside_left__container_row .aside_left__container_ro
   color: rgb(47, 58, 178);
 }
 
+.main__container_right_container_card {
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
+}
+
+.main__container_right_container_card_top_img {
+  background-color: #08BECB;
+  height: 30px;
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.card__container {
+  padding: 12px;
+}
+
+.main__container_right_container_card_name_cont {
+  width: 100%;
+  position: relative;
+}
+.main__container_right_container_card_name_cont .main__container_right_container_card_name_cont_img {
+  position: absolute;
+  top: -30px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #a3a3a3;
+}
+.main__container_right_container_card_name_cont .main__container_right_container_card_name_cont_name {
+  position: absolute;
+  top: -10px;
+  padding-left: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(64, 64, 64);
+}
+
+.main__container_right_container_card_button {
+  margin-top: 40px;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #2965F1;
+}
+.main__container_right_container_card_button:hover {
+  background-color: #0a58ca;
+  cursor: pointer;
+}
+.main__container_right_container_card_button .main__container_right_container_card_button_a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.main__container_right_container_card_desc {
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.main__container_right_container_card_data {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.main__container_right_container_card_data .main__container_right_container_card_data_title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #525252;
+}
+.main__container_right_container_card_data .main__container_right_container_card_data_desc {
+  font-size: 16px;
+  color: #404040;
+}
+
 @media screen and (max-width: 1030px) {
   #H1_title {
     font-size: 36px;
