@@ -15,7 +15,7 @@ body .aside_left__container .aside_left__container_row .aside_left__container_ro
   flex-direction: column;
   height: 277px;
   justify-content: space-around;
-  position: relative;
+  position: fixed;
 }
 body .aside_left__container .aside_left__container_row .aside_left__container_row_aside-left .aside_left__container_row_aside-left_container .aside_left__container_row_aside-left_container_items_tooltip {
   position: absolute;
@@ -41,7 +41,7 @@ body .aside_left__container .aside_left__container_row .aside_left__container_ro
 body .aside_left__container .aside_left__container_row .aside_left__container_row_aside-left .aside_left__container_row_aside-left_container .aside_left__container_row_aside-left_container_items:hover .aside_left__container_row_aside-left_container_items_sub_menu_container {
   display: flex !important;
   position: absolute;
-  left: 50px;
+  left: 25px;
   top: 0;
 }
 body .aside_left__container .aside_left__container_row .aside_left__container_row_aside-left .aside_left__container_row_aside-left_container .aside_left__container_row_aside-left_container_items a {
@@ -59,7 +59,7 @@ body .aside_left__container .aside_left__container_row .aside_left__container_ro
   height: 100px;
   border: 1px solid rgb(207, 196, 196);
   border-radius: 32px;
-  left: 45px;
+  left: 22px;
   top: -100%;
 }
 body .aside_left__container .aside_left__container_row .aside_left__container_row_aside-left .aside_left__container_row_aside-left_container .aside_left__container_row_aside-left_container_items .aside_left__container_row_aside-left_container_items_reactions .reaction {
@@ -428,6 +428,12 @@ body .aside_left__container .aside_left__container_row .aside_left__container_ro
 }
 .mid__container_all_visit div a:hover {
   color: rgb(47, 58, 178);
+}
+
+.mid__container_comments {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #e7e1e1;
 }
 
 @media only screen and (max-width: 768px) {
