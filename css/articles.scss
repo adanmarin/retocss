@@ -1,53 +1,177 @@
-.card-title:hover{
-    background-color: white;
-    color: blue;
-    cursor:pointer;
-  }
-  
-  .card-subtitle:hover{
-    display: inline-block;
-          padding: 5px;
-          border: none;
-          background-color: transparent;
-          color: inherit;
-          text-decoration: none;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-          background-color: #9B9B9B;
-          color: white;
-          text-decoration: underline;
-          border-radius: 3px;
-  
-  }
-  
-  .hashtags{
+.nav-link:hover {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.nav-lik_hv {
+  font-weight: bold;
+  color: black;
+}
+.nav-lik_hv:hover {
+  color: blue;
+  font-weight: bold;
+  background-color: white;
+}
+/** Navbar Relevant Latest Top media querie */
+ @media (max-width: 991px) {
+    .navbar-nav {
       display: flex;
-      justify-content: space-around ;
-  
-      .highlight-button {
-          display: inline-block;
-          padding: 5px;
-          border: none;
-          background-color: transparent;
-          color: inherit;
-          text-decoration: none;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-        }
-        
-        .highlight-button:hover {
-          background-color: #9B9B9B;
-          color: white;
-          text-decoration: underline;
-          border-radius: 3px;
-        }
+      flex-direction: row !important;
+      justify-content: flex-start;
+    }
+    .nav-item {
+      margin-right: 15px;
+    }
   }
-  
-  .icon__reactions{
-    margin-left: 35px;  
-  
+/* Navbar Relevant Latest Top media querie */
+.main__container_lead_centert {
+  background-color: #F5F5F5;
+}
+body {
+  background-color: #F5F5F5;
+}
+.card-title:hover {
+  /* Tittle Article Hover */
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+.card-subtitble {
+  /* User name (Los Costeños) */
+  font-size: 2.5px;
+  font-style: bold;
+}
+/*Starts user name positions for another article containers*/
+.card-subtitle__left {
+  margin-left: 50px;
+}
+.card-date__left {
+  margin-left: 50px;
+}
+/*Finish user name positions for another article containers*/
+.card-img-top:hover {
+  cursor: pointer;
+}
+.card-subtitle:hover {
+  /* User name (Los Costeños) Hover */
+  display: inline-block;
+  // padding: 5px;
+  border: none;
+  background-color: transparent;
+  color: black;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #E7DEDE;
+  border-radius: 6px;
+}
+.card__subtitle-date {
+  font-size: medium;
+  font-size: smaller;
+}
+.card__subtitle-date:hover {
+  /* Date of publish mouse hover*/
+  cursor: pointer;
+}
+.hashtags {
+  /* Hashtags styles and positions*/
+  display: flex;
+  justify-content: space-around;
+  .highlight-button {
+    display: inline-block;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
   }
-  
-  .crayons-btn{
-    margin-left: 35px;
+  .highlight-button:hover {
+    /* Hashtags hover */
+    background-color: #E7DEDE;
+    border-radius: 3px;
+    text-decoration: none;
   }
+}
+.icon__reactions {
+  margin-left: 25px;
+  .reaction-comments__container{
+    display: flex;
+    justify-content: space-between;
+  }
+ }
+.reaction-comments__container{
+  display: flex;
+  justify-content: space-between;
+}
+.icon_reactions_hv:hover {
+  background-color: #E7DEDE;
+  border-radius: 1px;
+  cursor: pointer;
+}
+.crayons-btn {
+  margin-left: 50px;
+}
+.comment__container {
+  margin-left: 145px;
+  overflow: hidden;
+.read__time{
+  font-size: smaller;
+}
+  .read__time:hover {
+    cursor: pointer;
+  }
+}
+.icon__hover:hover {
+  cursor: pointer;
+}
+.comment-count {
+  white-space: nowrap;
+  /* Prevents white space from wrapping around multiple lines */
+}
+@media (max-width: 576px) {
+  .comment-count {
+    display: none;
+    position: absolute;
+    /* Hides the element in small screens */
+  }
+}
+/*Stars Profile*/
+.my__photo {
+  position: relative;
+}
+.cursor_photo:hover {
+  cursor: pointer;
+}
+.profile {
+  position: absolute;
+  top: 160px;
+}
+.profile__2 {
+  /*Position for photo profile of the other articles. Whitout main image*/
+  position: absolute;
+  top: 15px;
+}
+/* Finish Position for photo profile of the other articles. Whitout main image*/
+/*Starts Profile for first card*/
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.profile {
+  overflow: hidden;
+}
+@media (max-width: 576px) {
+  .profile {
+    position: static;
+    margin-bottom: 10px;
+  }
+}
+/*Finish Profile for first card*/
