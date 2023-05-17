@@ -6,18 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/post.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        
+    <header class="header__container sticky-top">
+        <nav class="header__container_nav container-xxl navbar">
+            <div class="header__container_nav_search">
+                <img class="header__container_nav_search_logo" src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png" alt="">
+                <div class="header__container_nav_search_txt">
+                    <input class="header__container_nav_search_txt-input" type="text" placeholder="Search...">
+                    <btn class="header__container_nav_search_txt-search" src="" alt=""><i class="fa-sharp fa-regular fa-magnifying-glass search__desktop"></i></btn>
+                </div>
+            </div>
+            <div class="header__container_nav_buttons">
+                <a href="" class="header__container_nav_buttons-search link__search-mobile">
+                    <i class="fa-sharp fa-regular fa-magnifying-glass search__mobile"></i>
+                </a>
+                <a class="header__container_nav_buttons-create" href="">Create Post</a>
+                <a class="header__container_nav_buttons-bell" href="">
+                    <i class="fa-regular fa-bell"></i>
+                </a>
+                <a class="header__container_nav_buttons-user" href="">
+                    <img class="h_img" src="https://res.cloudinary.com/practicaldev/image/fetch/s--tWOd-1wA--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/1081152/a7d60e63-4604-4c7a-aa1b-3df6e55230dc.png" alt="" >
+                    <div class="userms"></div>
+                </a>
+            </div>
+        </nav>
+
     </header>
     <div class="container-lg aside_left__container">
         <div class="row aside_left__container_row">
-            <aside class="aside_left__container_row_aside-left  col-12  col-md-1 col-lg-1">
+            <aside class="aside_left__container_row_aside-left  col-12 col-sm-12 col-md-1 col-lg-1">
                <div class="aside_left__container_row_aside-left_container">
-                    <div class="aside_left__container_row_aside-left_container_items">
+                    <div class="aside_left__container_row_aside-left_container_items reactions_hover" id="reaction_hover">
+                        <span hidden class="aside_left__container_row_aside-left_container_items_tooltip">Add reaction</span>
+                        <div hidden class="aside_left__container_row_aside-left_container_items_reactions">
+                            <div class="reaction"><span hidden class="reaction_tooltip">Like</span><img src="img/marin/reac_heart.svg" alt=""><span>50</span></div>
+                            <div class="reaction"><span hidden class="reaction_tooltip">Unicorn</span><img src="img/marin/react_unicorn.svg" alt=""><span>50</span></div>
+                            <div class="reaction"><span hidden class="reaction_tooltip">Exploding Head</span><img src="img/marin/react_explote.svg" alt=""><span>50</span></div>
+                            <div class="reaction"><span hidden class="reaction_tooltip">Raised Hands</span><img src="img/marin/react_hands.svg" alt=""><span>50</span></div>
+                            <div class="reaction"><span hidden class="reaction_tooltip">Fire</span><img src="img/marin/react_fire.svg" alt=""><span>50</span></div>
+                        </div>
                         <a class="aside_left__container_row_aside-left_container_items_img" href="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" role="img" aria-hidden="true" class="aside_left__container_row_aside-left_container_items_img_heart" >
                                 <g clip-path="url(#clip0_988_3276)">
@@ -33,6 +67,7 @@
                         <a class="aside_left__container_row_aside-left_container_items_txt" href="">98</a>
                     </div>
                     <div class="aside_left__container_row_aside-left_container_items">
+                        <span hidden class="aside_left__container_row_aside-left_container_items_tooltip">Jump to comments</span>
                         <a class="aside_left__container_row_aside-left_container_items_img" href="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-hidden="true" class="aside_left__container_row_aside-left_container_items_img_comment">
                                 <path d="M10 3h4a8 8 0 010 16v3.5c-5-2-12-5-12-11.5a8 8 0 018-8zm2 14h2a6 6 0 000-12h-4a6 6 0 00-6 6c0 3.61 2.462 5.966 8 8.48V17z"></path>
@@ -41,6 +76,7 @@
                         <a class="aside_left__container_row_aside-left_container_items_txt"  href="">11</a>
                     </div>
                     <div class="aside_left__container_row_aside-left_container_items">
+                        <span hidden class="aside_left__container_row_aside-left_container_items_tooltip">Save</span>
                         <a class="aside_left__container_row_aside-left_container_items_img" href="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-hidden="true" class="aside_left__container_row_aside-left_container_items_img_save">
                                 <path d="M5 2h14a1 1 0 011 1v19.143a.5.5 0 01-.766.424L12 18.03l-7.234 4.536A.5.5 0 014 22.143V3a1 1 0 011-1zm13 2H6v15.432l6-3.761 6 3.761V4z"></path>
@@ -49,6 +85,21 @@
                         <a class="aside_left__container_row_aside-left_container_items_txt"  href="">141</a>
                     </div>
                     <div class="aside_left__container_row_aside-left_container_items">
+                        <div hidden class="aside_left__container_row_aside-left_container_items_sub_menu_container">
+                            <a class="copy" href="">Copy link 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="article-copy-icon" role="img" aria-labelledby="al9ur453ik399atm9hr2xur9ljwlu95p" aria-hidden="true" class="crayons-icon mx-2 shrink-0"><title id="al9ur453ik399atm9hr2xur9ljwlu95p">Copy link</title>
+                                    <path d="M7 6V3a1 1 0 011-1h12a1 1 0 011 1v14a1 1 0 01-1 1h-3v3c0 .552-.45 1-1.007 1H4.007A1 1 0 013 21l.003-14c0-.552.45-1 1.007-1H7zm2 0h8v10h2V4H9v2zm-2 5v2h6v-2H7zm0 4v2h6v-2H7z"></path>
+                                </svg>
+                            </a>
+                            <a href="">Share to Twitter</a>
+                            <a href="">Share to Linkedln</a>
+                            <a href="">Share to Reddit</a>
+                            <a href="">Share to Hacker News</a>
+                            <a href="">Share to Facebook</a>
+                            <a href="">Share to Mastodom</a>
+                            <a href="">Share Post via...</a>
+                            <a href="">Report Abuse</a>
+                        </div>
                         <a class="aside_left__container_row_aside-left_container_items_img-thredots" href="">
                             <img src="./img/marin/threedocs.svg" alt="">
                         </a>
@@ -57,24 +108,80 @@
                </div>
                
             </aside>
-            <main class="contorno text-success col-12 col-sm-12 col-md-11 col-lg-8">
-                MID Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos est nemo neque! Tenetur laudantium commodi cumque modi facere beatae reprehenderit sed laboriosam? Architecto veniam error repudiandae minus magni possimus numquam.
-                Quos minima modi ratione natus laboriosam, magnam saepe, fugit voluptatum expedita fuga iure magni doloremque molestias voluptate. Dolore minus corrupti aliquam distinctio, aut, hic ex quis suscipit quibusdam consequatur dolor.
-                Similique corrupti placeat deserunt voluptas provident tempore eos beatae sequi excepturi necessitatibus. Pariatur velit culpa error atque? Ullam sapiente quo beatae architecto obcaecati, hic corrupti magnam adipisci distinctio excepturi iure!
-                Vitae cupiditate maxime, numquam possimus sed beatae magnam enim omnis asperiores fugit quasi, necessitatibus rerum nisi eos nemo porro placeat saepe eligendi modi soluta! Laborum assumenda vero velit libero officia!
-                Voluptas, magnam dolores. Dolor, ipsam qui eius laboriosam eaque, nulla quae ratione eveniet consectetur labore nostrum! Veritatis, repudiandae necessitatibus iste omnis, libero obcaecati nihil officia pariatur id porro, ad ducimus.
+            <main class="p-0 contorno col-12 col-sm-12 col-md-8 col-lg-8 mid__container">
+                <div class="mid__container_banner_container">
+                    <img class="mid__container_banner_container_banner" src="./img/marin/banner.webp">
+                </div>
+                <div class="mid__container_all ">
+                    <div class="mid__container_all_title pe-sm-3 pt-sm-3 pe-sm3 ps-sm-3 pe-md-4 pt-md-4 ps-md-4 pe-xl-5 pt-xl-5 ps-xl-5" >
+                        <div class="mid__container_all_title_name">
+                            <img class="mid__container_all_title_name_img" src="./img/marin/bastoChica.webp" alt="">
+                            <div class="mid__container_all_title_name_data">
+                                <span class="mid__container_all_title_name_data_name">Arafat</span>
+                                <span class="mid__container_all_title_name_data_date">Posted on 9 may</span>
+                            </div>
+                        </div>
+                        <div class="mid__container_all_reacts">
+                            <div class="mid__container_all_reacts_cont"><img src="./img/marin/reac_heart.svg" alt=""><span>112</span></div>
+                            <div class="mid__container_all_reacts_cont"><img src="./img/marin/react_unicorn.svg" alt=""><span>8</span></div>
+                            <div class="mid__container_all_reacts_cont"><img src="./img/marin/react_explote.svg" alt=""><span>9</span></div>
+                            <div class="mid__container_all_reacts_cont"><img src="./img/marin/react_hands.svg" alt=""><span>11</span></div>
+                            <div class="mid__container_all_reacts_cont"><img src="./img/marin/react_fire.svg" alt=""><span>7</span></div>
+                        </div>
+                        <div class="mid__container_all_h1">
+                            <h1 id="H1_title">🔥Hot CSS Tools For Everyone</h1>
+                        </div>
+                        <div class="mid__container_all_hash">
+                            <a href="" class="mid__container_all_hash_items_purple box_size">
+                                <span class="mid__container_all_hash_items_purple_ha">#</span><span>webdev</span>
+                            </a>
+                            <a href="" class="mid__container_all_hash_items_drak_green box_size">
+                                <span class="mid__container_all_hash_items_drak_green_ha">#</span><span>beginners</span>
+                            </a>
+                            <a href="" class="mid__container_all_hash_items_blue box_size">
+                                <span class="mid__container_all_hash_items_blue_ha">#</span><span>css</span>
+                            </a>
+                            <a href="" class="mid__container_all_hash_items_green box_size">
+                                <span class="mid__container_all_hash_items_green_ha">#</span><span>tooling</span>
+                            </a>
+                        </div>
+                        <div class="mid__container_all_tools">
+                            <div class="mid__container_all_tools_cont">
+                               <div class="mid__container_all_tools_cont_part">
+                                    <div class="mid__container_all_tools_cont_part_inside">
+                                        <span>1</span>
+                                        <span>Juicy Tailwindcss Tools For Everyone</span>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+
+                        <!--Tools, Trends and Extensions (8 Part Series)
+1 Juicy Tailwindcss Tools For Everyone
+2 6 Project Management Tools To Boost Your Productivity
+3 8 Juicy Chrome Extensions for Web Developers
+4 10 Must-Use VS Code Extensions For Web Developers😈
+5 Best Design Trends of 2023
+6 8 Free And Beautiful Image Websites
+7 8 AI Tools Like Chat GPT-->
+                        necessitatibus iste omnis, libero obcaecati nihil officia pariatur id porro, ad ducimus.
+                        Quaerat voluptatibus rerum amet? Doloremque nostrum numquam saepe rem quis a ad ex blanditiis, labore iste minima nisi neque tempora esse! Explicabo ad magnam libero quisquam. Magni, cum. Ipsam, veniam.
+                        Pariatur alias magni quae explicabo recusandae, in nemo, aperiam consequuntur nihil nesciunt, animi accusantium fugit quam quis a itaque obcaecati laudantium id distinctio eaque? Aperiam dolore laboriosam provident! Officia, et.
+                        Suscipit aspernatur dignissimos maxime, velit corporis placeat veniam ut, consectetur aperiam numquam facilis temporibus repudiandae dicta maiores. Voluptatum quibusdam officiis, inventore optio nesciunt blanditiis. Esse incidunt error modi cum perferendis!
+                        Earum odio rerum reprehenderit, architecto culpa, harum deleniti sapiente aut ipsa beatae veritatis nihil aliquid delectus inventore amet! Accusantium explicabo expedita tempora a amet quaerat sequi doloribus architecto velit laboriosam!
+                        Pariatur molestiae quam illum explicabo odit magni amet doloribus tempore nisi unde, voluptas earum consectetur consequuntur. Natus laudantium commodi doloribus! Ipsam perspiciatis architecto vitae, consequuntur consequatur porro velit? Expedita, molestiae!
+                    </div>
+                </div>
+                
+                
+            </main>
+            <aside class="col-12 col-sm-12 col-md-3  col-lg-3 main__container_right">
+                necessitatibus iste omnis, libero obcaecati nihil officia pariatur id porro, ad ducimus.
                 Quaerat voluptatibus rerum amet? Doloremque nostrum numquam saepe rem quis a ad ex blanditiis, labore iste minima nisi neque tempora esse! Explicabo ad magnam libero quisquam. Magni, cum. Ipsam, veniam.
                 Pariatur alias magni quae explicabo recusandae, in nemo, aperiam consequuntur nihil nesciunt, animi accusantium fugit quam quis a itaque obcaecati laudantium id distinctio eaque? Aperiam dolore laboriosam provident! Officia, et.
                 Suscipit aspernatur dignissimos maxime, velit corporis placeat veniam ut, consectetur aperiam numquam facilis temporibus repudiandae dicta maiores. Voluptatum quibusdam officiis, inventore optio nesciunt blanditiis. Esse incidunt error modi cum perferendis!
                 Earum odio rerum reprehenderit, architecto culpa, harum deleniti sapiente aut ipsa beatae veritatis nihil aliquid delectus inventore amet! Accusantium explicabo expedita tempora a amet quaerat sequi doloribus architecto velit laboriosam!
                 Pariatur molestiae quam illum explicabo odit magni amet doloribus tempore nisi unde, voluptas earum consectetur consequuntur. Natus laudantium commodi doloribus! Ipsam perspiciatis architecto vitae, consequuntur consequatur porro velit? Expedita, molestiae!
-            </main>
-            <aside class="contorno  text-danger col-sm-12 col-md-12 col-lg-3">
-                aside right Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quam autem, praesentium voluptas, repudiandae excepturi vitae illum quae ex laudantium id non, quos voluptates tempore odio repellendus doloremque deserunt enim.
-                Magnam cum perspiciatis architecto laborum veritatis accusantium, delectus quos blanditiis corrupti sint repudiandae recusandae quasi distinctio voluptatem, animi quas natus nihil id, exercitationem aperiam sunt? Facilis nihil maiores maxime harum?
-                Exercitationem cumque incidunt fuga vero placeat quidem sint odio, excepturi voluptatibus maiores facilis. In qui culpa ullam eaque modi ipsam dolore quod voluptates! Quia repudiandae nulla esse eligendi et ad.
-                Eveniet ipsam accusantium, saepe suscipit doloremque quibusdam harum animi velit iure enim maxime minima. Libero reiciendis, accusantium maxime debitis, tenetur rerum illo optio sed quam nihil velit incidunt, eveniet quibusdam?
-                Cum, adipisci. Reprehenderit, nobis inventore labore facere, debitis nemo doloribus saepe ea modi sequi totam adipisci accusantium tenetur, vel soluta veritatis ullam ipsa voluptates alias. Numquam voluptates rerum maiores eius!
             </aside>
      </div>
     </div>
