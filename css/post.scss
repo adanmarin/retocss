@@ -389,6 +389,33 @@ body{
         }
     }
 }
+.mid__container_all_topics{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .mid__container_all_topics_title{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .mid__container_all_topics_title_img{
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .mid__container_all_topics_paragraph{
+        font-size: 20px;
+        overflow-wrap: break-word;
+        .mid__container_all_topics_paragraph_link{
+            &:hover{
+                color: rgb(47,58,178,1);
+            }
+                color: #2965F1;
+                font-size: 20px;
+                text-decoration: underline;
+        }
+    }
+}
 
 //TERMINA LO DEL MEDIO
 @media only screen and (max-width:768px){
