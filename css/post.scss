@@ -257,7 +257,9 @@ body{
 }
 .mid__container_all_hash
 {
+    height: 30px;
     display: flex;
+    align-items: center;
     gap: 12px;
 }
 .box_size
@@ -303,7 +305,90 @@ body{
     border-radius: 6px;
     background-color: rgba(193, 216, 47, 0.10) ;
 }
+.mid__container_all_tools{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.mid__container_all_tools_cont{
+    background-color: #f5f5f5;
+    width: 550px;
+    height: 339px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #e7e1e1;
+}
+.mid__container_all_tools_cont_part{
+    border-bottom: 1px solid #e7e1e1;
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.mid__container_all_tools_cont_part_inside{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.first{
+    padding-left: 10px;
+    font-size: 20px;
+    color: #2965F1;
+    font-weight: bold;
+}
+.last{
+    border-bottom: 0px;
+    font-weight: bold;
+}
+.mid__container_all_tools_cont_part_inside_number{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid__container_all_tools_cont_part:hover{
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.first:hover{
+    background-color: #f5f5f5;
 
+}
+.mid__container_all_tools_cont_part_inside_number_last{
+    background-color: #2965F1;
+    color: #FFFFFF;
+}
+.mid__container_all_description
+{
+    font-size: 20px;
+}
+.mid__container_all_table_of_content_title
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.mid__container_all_table_of_content_title_ul{
+    li{
+        a{
+        &:hover{
+            color: rgb(47,58,178,1);
+        }
+            color: #2965F1;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+    }
+}
 
 //TERMINA LO DEL MEDIO
 @media only screen and (max-width:768px){
