@@ -566,6 +566,11 @@ body .aside_left__container .aside_left__container_row .aside_left__container_ro
   color: rgb(47, 58, 178);
 }
 
+@media screen and (max-width: 1030px) {
+  #H1_title {
+    font-size: 36px;
+  }
+}
 @media only screen and (max-width: 768px) {
   body .aside_left__container .aside_left__container_row {
     position: relative;
