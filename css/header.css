@@ -194,6 +194,57 @@ body {
   border-radius: 5px;
 }
 
+.sub__footer {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #dedede;
+  margin: 100px 0px 0px 0px !important;
+  padding: 50px;
+  color: #313131;
+  gap: 10px;
+}
+
+.footer__ul {
+  width: 100%;
+}
+
+footer li {
+  line-height: 20px;
+  margin-right: 5px;
+}
+
+.footer__ul {
+  gap: 20px;
+}
+
+.ftl__cpt-1 {
+  list-style: none;
+}
+
+.ftl1 {
+  list-style: none;
+}
+
+.footer__link-community {
+  font-weight: 600;
+}
+
+.link-style {
+  color: rgb(85, 76, 255);
+}
+
+.link-style:hover {
+  text-decoration: underline;
+}
+
+.footer__build {
+  text-align: center;
+}
+
+.footer__made {
+  text-align: center;
+}
+
 @media only screen and (max-width: 770px) {
   body {
     background-color: red;
@@ -235,5 +286,8 @@ body {
   .link__search-mobile:hover {
     color: rgb(40, 57, 122);
     background-color: rgba(85, 76, 255, 0.185);
+  }
+  .sub__footer {
+    padding: 40px;
   }
 }/*# sourceMappingURL=header.css.map */
